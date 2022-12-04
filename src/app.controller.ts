@@ -6,4 +6,9 @@ export class AppController {
   getRootRoute() {
     return 'hi nest!';
   }
+
+  @Get('/xy')
+  getXandY() {
+    return 'X&Y';
+  }
 }
